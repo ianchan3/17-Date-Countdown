@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  background: url("https://t3.ftcdn.net/jpg/02/50/85/86/360_F_250858668_6OWz3p3Hnv97xm40C0GBEATOM7FDp0Nm.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 55px;
+  color: #fff;
+  line-height: 2;
+}
+
+#countdown {
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  font-size: 45px;
+  color: #fff;
+  border-radius: 5px;
+}
